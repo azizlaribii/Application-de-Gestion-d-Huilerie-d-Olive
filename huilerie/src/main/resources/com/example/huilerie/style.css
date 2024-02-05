@@ -1,0 +1,30 @@
+.LOGIN
+{
+-fx-background-color: #395144;
+}
+.button {
+  -fx-background-color:  #395144;
+  -fx-border-radius: 20 ;
+
+    -fx-alignment: CENTER;
+    -fx-text-fill: #e5ca9c;
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:   #395144;
+}
+.table-view .column-header .label{
+   -fx-text-fill: #e5ca9c;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER
+}
+.table-view .cell{
+   -fx-cell-size: 35;
+  -fx-alignment: center-left;
+  -fx-background-color: #ffffff;
+  -fx-border-color: #ffffff;
+  -fx-text-fill: #295021;
+  -fx-alignment: CENTER;
+
+}

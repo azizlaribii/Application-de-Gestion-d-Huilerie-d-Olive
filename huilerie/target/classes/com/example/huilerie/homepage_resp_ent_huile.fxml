@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F0EBCE;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.huilerie.homepage_resp_ent_huile">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="250.0" style="-fx-background-color: #395144;">
+         <children>
+            <ImageView fx:id="home" fitHeight="116.0" fitWidth="108.0" layoutX="71.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/huilerie/images/logo.png" />
+               </image>
+            </ImageView>
+            <Text fill="#e5ca9c" layoutX="56.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mediterra Press">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <VBox layoutY="219.0" prefHeight="256.0" prefWidth="250.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="250.0" textFill="#e5ca9c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="88.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="250.0" textFill="#e5ca9c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="166.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="250.0" textFill="#e5ca9c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <Text fill="#395144" layoutX="274.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fiche de Vente d'Huile">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="idc" layoutX="274.0" layoutY="197.0" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: #e5ca9c;" />
+      <Text fill="#395144" layoutX="593.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data de Vente">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#395144" layoutX="274.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantité ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="quantite" layoutX="274.0" layoutY="304.0" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: #e5ca9c;" />
+      <Text fill="#395144" layoutX="274.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID Client">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="creer" layoutX="763.0" layoutY="416.0" mnemonicParsing="false" onAction="#creer" prefHeight="35.0" prefWidth="79.0" text="Créer">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="achat" layoutX="593.0" layoutY="195.0" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: #e5ca9c;" />
+      <Text fill="#395144" layoutX="593.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prix par Litre">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="prix" layoutX="593.0" layoutY="313.0" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: #e5ca9c;" />
+   </children>
+</AnchorPane>

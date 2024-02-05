@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="LOG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #395144;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.huilerie.LOGIN">
+   <children>
+      <Pane fx:id="box" layoutX="327.0" layoutY="-6.0" prefHeight="613.0" prefWidth="634.0" style="-fx-background-radius: 70; -fx-background-color: #F0EBCE;" AnchorPane.bottomAnchor="-7.0" AnchorPane.topAnchor="-6.0">
+         <children>
+            <Text fill="#395144" layoutX="37.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Code d'utilisateur">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="psw" layoutX="37.0" layoutY="398.0" prefHeight="40.0" prefWidth="500.0" style="-fx-background-color: #E5CA9C;" />
+            <Text fill="#395144" layoutX="37.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de Passe">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="username" layoutX="37.0" layoutY="275.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="500.0" style="-fx-background-color: #E5CA9C;" />
+            <Text fill="#395144" layoutX="37.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BIENVENU!">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <Button layoutX="454.0" layoutY="490.0" mnemonicParsing="false" onAction="#connexion" prefHeight="37.0" prefWidth="83.0" text="Connexion" textFill="#f0ebce" />
+         </children>
+      </Pane>
+      <ImageView fx:id="home" fitHeight="124.0" fitWidth="132.0" layoutX="110.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/com/example/huilerie/images/logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#e5ca9c" layoutX="63.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mediterra Press" wrappingWidth="197.39062404632568">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
